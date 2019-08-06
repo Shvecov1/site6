@@ -1,0 +1,60 @@
+.header {
+    background: linear-gradient(90deg, #4183cf 10%, #7f5eb5 100%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    width: 450px;
+    height: 590px;
+    background-color: white;
+    border-radius: 40px;
+    margin: 50px auto 0 auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.login {
+    font-family: 'Righteous', cursive;
+    font-size: 45px;
+    color: black;
+    text-align: center;
+    margin: 50px 0 70px 0;
+}
+
+.help {
+    font-family: 'Exo', sans-serif;
+    color: black;
+    font-size: 17px; 
+}
+
+a {
+    text-decoration: none;
+}
+
+input[type="text"],input[type="password"]{
+    width: 300px;
+    height:50px;
+    font-size: 16px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    border: none;
+    border-bottom: 2px solid #bcbcbc;
+    color: #bcbcbc;
+    font-family: 'Exo', sans-serif;
+    outline: none;
+   }
+   
+.dws-submit {
+    background: linear-gradient(90deg, #4183cf 10%, #7f5eb5 100%);
+    width: 311px;
+    height: 50px;
+    color: white;
+    margin-bottom: 75px;
+    font-family: 'Righteous', cursive;
+}
